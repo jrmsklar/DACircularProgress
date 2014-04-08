@@ -8,6 +8,11 @@
 
 #import "DACircularProgressView.h"
 
+/**
+ @class DALabeledCircularProgressView
+ 
+ @brief Subclass of DACircularProgressView that adds a UILabel.
+ */
 @interface DALabeledCircularProgressView : DACircularProgressView
 
 /**

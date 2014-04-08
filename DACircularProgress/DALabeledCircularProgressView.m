@@ -36,10 +36,11 @@
  */
 - (void)initializeLabel
 {
-    self.label = [[UILabel alloc]
+    self.progressLabel = [[UILabel alloc]
                   initWithFrame:self.bounds];
-    self.label.textAlignment = NSTextAlignmentCenter;
-    [self addSubview:self.label];
+    self.progressLabel.backgroundColor = [UIColor blueColor];
+    self.progressLabel.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:self.progressLabel];
 }
 
 @end
